@@ -23,27 +23,41 @@ vagrant init ubuntu/trusty64; vagrant up --provider virtualbox
 É um processo demorado, mais detalhes em: https://atlas.hashicorp.com/ubuntu/boxes/trusty64
 
 
+Clonando o Projeto (Git)
+---
+Na sua máquina, no mesmo diretório do Vagrantfile digite:
+```
+git clone git@github.com:uauker/rpg-core.git
+```
+
 Comandos Básicos do Vagrant
 ---
-Para carregar a VM, vá no diretório com o Vagrantfile e digite:
+- Para carregar a VM, vá no diretório com o Vagrantfile e digite:
 ```
 vagrant up
 ```
 
-Para entrar na máquina virtual digite:
+- Para entrar na máquina virtual digite:
 ```
 vagrant ssh
 ```
 
-Para sair da máquina virtual digite:
+- Para sair da máquina virtual digite:
 ```
 exit
 ```
 
-Para desligar a máquina virtual digite:
+- Para desligar a máquina virtual digite:
 ```
 vagrant halt
 ```
+
+- Para acessar o projeto de dentro da máquina virtual digite:
+```
+cd /vagrant
+```
+
+
 
 
 wget https://raw.githubusercontent.com/progrium/dokku/v0.4.4/bootstrap.sh
