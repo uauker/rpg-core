@@ -97,3 +97,8 @@ Instalando o Rails 4.2.4
 ```
 gem install rails -v 4.2.4
 ```
+
+Para olhar a versão instalada
+```
+rails -v
+```
