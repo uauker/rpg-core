@@ -23,7 +23,7 @@ vagrant init ubuntu/trusty64; vagrant up --provider virtualbox
 É um processo demorado, mais detalhes em: https://atlas.hashicorp.com/ubuntu/boxes/trusty64
 
 
-Comandos Básicos Vagrant
+Comandos Básicos do Vagrant
 ---
 Para carregar a VM, vá no diretório com o Vagrantfile e digite:
 ```
