@@ -92,3 +92,8 @@ Removendo o rdoc, vai acelerar as instalações
 echo "gem: --no-ri --no-rdoc" > ~/.gemrc
 gem install bundler
 ```
+
+Instalando o Rails 4.2.4
+```
+gem install rails -v 4.2.4
+```
