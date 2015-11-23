@@ -86,3 +86,9 @@ rbenv install 2.2.3
 rbenv global 2.2.3
 ruby -v
 ```
+
+Removendo o rdoc, vai acelerar as instalações
+```
+echo "gem: --no-ri --no-rdoc" > ~/.gemrc
+gem install bundler
+```
