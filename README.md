@@ -60,6 +60,8 @@ cd /vagrant
 
 Atualizando sua Máquina virtual
 ---
+Boa parte desse tutorial foi pego de https://gorails.com/setup/ubuntu/14.04
+
 Instalando as dependências
 ```
 sudo apt-get update
